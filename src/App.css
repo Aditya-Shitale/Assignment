@@ -14,12 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +32,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nav{
+  color: black;
+  font-size: 20px;
+  background-color: burlywood;
+  display: flex;
+  padding: 10;
+}
+.middle{
+  font-size: 20px;
+  color: black;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+.container{
+  margin-top: 20px;
+  margin-left: 35vh;
+  margin-right: 35vh;
+  border:1px solid black;
+  border-radius: 5px;
+  width: 70%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file-uploader{
+
+ margin: 20vh;
+}
+#im{
+  height: 10vh;
+  margin-left: 3vh;
+}
+
+#name{
+  font-size: 20px;
+  color: black;
+}
+.btn{
+  background-color: #3e3c61;
+  color: white;
+  padding: 10px;
+  margin-left: 1vh;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+
 }
